@@ -4,8 +4,11 @@ A Friday solo project for Epicodus C#/.NET.
 This app will let a user view my personal site, about page, and projects page that link to my three most-starred Github repos.
 
 ## Specs
-
+|Requirement|Completed?|
 |---|---|
+| Users can see a landing page | X |
+| Users can see an about page about me | X |
+| Users can see a page detailing my 3 most-starred Github projects | X |
 
 <hr>
 
