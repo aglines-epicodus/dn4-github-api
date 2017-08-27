@@ -4,3 +4,14 @@
 <h2>@ViewData["Title"].</h2>
 <h3>@ViewData["Message"]</h3>
 
+@foreach (var repo in @Model.items)
+{
+  <div>
+    @if (@repo.stargazers_count > 0)
+    {
+    <h2><a href="@repo.html_url">@repo.name</a> (@repo.stargazers_count stars)</h2>
+    <div>Description: @repo.description</div>
+    <hr />
+    }
+  </div>
+}
