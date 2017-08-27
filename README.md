@@ -11,22 +11,12 @@ This app will let a user view my personal site, about page, and projects page th
 
 ## Project Build
 
-Download from the [repo](https://github.com/GrapeSalad/DotNet-Portfolio)
+Download from the repo, https://github.com/aglines-epicodus/dn4-github-api
 
 Open Viual Studio 2015 and choose the Open Project option.
 
 Navigate to the directory in which you downloaded the repo and open the project file.
 
-*Packages*
-
-Nuget Packages to get:
-* RestSharp.NetCore
-* Newtonsoft.Json
-
-### Migration
-
-Navigate to `....\project-name\src\projectname`.
-Run this command in your terminal: `dotnet ef database update`.
 
 ### Running the Server
 
